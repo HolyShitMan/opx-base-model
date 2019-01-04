@@ -492,8 +492,9 @@ module dell-base-pas {
     }
 
     leaf value {
-        type binary;
-        length "1..255";
+        type binary {
+            length "1..255";
+        }
         description "Value field";
     }
 

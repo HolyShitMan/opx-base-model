@@ -98,7 +98,7 @@ module dell-base-sflow {
 
         leaf ip {
             type base-cmn:ipv4-address;
-            default 127.0.0.1;
+            default "127.0.0.1";
             description "socket IP address.";
         }
         leaf udp-port {

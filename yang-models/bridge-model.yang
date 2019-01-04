@@ -57,8 +57,9 @@ module bridge-domain {
             description "Bridge name.";
         }
         leaf id {
-             type uint32;
-             range "1..16777215";
+             type uint32 {
+                 range "1..16777215";
+             }
              description "Bridge id is optional and if name is not provided during creation time then
                            bridge id is used for the generation of the bridge name.";
         }

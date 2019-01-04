@@ -76,11 +76,6 @@ module os-icmp-config {
                 description "VRF device name";
             }
 
-            leaf vrf-name {
-                type string;
-                description "VRF device name";
-            }
-
             leaf af {
                 type base-cmn:af-type;
                 mandatory true;
